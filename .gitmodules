@@ -1,0 +1,3 @@
+[submodule "src/test-talker"]
+	path = src/test-talker
+	url = https://github.com/NikolausLaj/talker-node-cpp.git

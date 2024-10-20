@@ -1,0 +1,138 @@
+[0.000000] (-) TimerEvent: {}
+[0.000513] (test-talker) JobQueued: {'identifier': 'test-talker', 'dependencies': OrderedDict()}
+[0.000591] (test-talker) JobStarted: {'identifier': 'test-talker'}
+[0.014304] (test-talker) JobProgress: {'identifier': 'test-talker', 'progress': 'cmake'}
+[0.015322] (test-talker) Command: {'cmd': ['/usr/bin/cmake', '/ros-humble-dev-container/src/test-talker', '-DCMAKE_INSTALL_PREFIX=/ros-humble-dev-container/src/install/test-talker'], 'cwd': '/ros-humble-dev-container/src/build/test-talker', 'env': OrderedDict([('HOSTNAME', 'craftman'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/ros-humble-dev-container'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4537d6c6-74c7-4d6c-abac-e7f5e4402e5a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3218cb39-8f7e-49a0-8c4b-903b0ad8453c.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock","/tmp/.X11-unix/X3","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':3'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a40e3884c9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros-humble-dev-container/src/build/test-talker'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038708] (test-talker) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099103] (-) TimerEvent: {}
+[0.199532] (-) TimerEvent: {}
+[0.300042] (-) TimerEvent: {}
+[0.337569] (test-talker) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400153] (-) TimerEvent: {}
+[0.413351] (test-talker) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.423931] (test-talker) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.440390] (test-talker) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.471829] (test-talker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500310] (-) TimerEvent: {}
+[0.505244] (test-talker) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.569925] (test-talker) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.572338] (test-talker) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600420] (-) TimerEvent: {}
+[0.700711] (-) TimerEvent: {}
+[0.776132] (test-talker) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800849] (-) TimerEvent: {}
+[0.901207] (-) TimerEvent: {}
+[0.966171] (test-talker) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.981428] (test-talker) StdoutLine: {'line': b'-- Generating done\n'}
+[0.983506] (test-talker) StdoutLine: {'line': b'-- Build files have been written to: /ros-humble-dev-container/src/build/test-talker\n'}
+[0.992380] (test-talker) CommandEnded: {'returncode': 0}
+[0.993250] (test-talker) JobProgress: {'identifier': 'test-talker', 'progress': 'build'}
+[0.995057] (test-talker) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros-humble-dev-container/src/build/test-talker', '--', '-j8', '-l8'], 'cwd': '/ros-humble-dev-container/src/build/test-talker', 'env': OrderedDict([('HOSTNAME', 'craftman'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/ros-humble-dev-container'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4537d6c6-74c7-4d6c-abac-e7f5e4402e5a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3218cb39-8f7e-49a0-8c4b-903b0ad8453c.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock","/tmp/.X11-unix/X3","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':3'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a40e3884c9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros-humble-dev-container/src/build/test-talker'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.001311] (-) TimerEvent: {}
+[1.075490] (test-talker) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o\x1b[0m\n'}
+[1.101424] (-) TimerEvent: {}
+[1.201812] (-) TimerEvent: {}
+[1.302134] (-) TimerEvent: {}
+[1.402510] (-) TimerEvent: {}
+[1.502872] (-) TimerEvent: {}
+[1.603261] (-) TimerEvent: {}
+[1.703626] (-) TimerEvent: {}
+[1.803977] (-) TimerEvent: {}
+[1.904313] (-) TimerEvent: {}
+[2.004677] (-) TimerEvent: {}
+[2.105033] (-) TimerEvent: {}
+[2.205418] (-) TimerEvent: {}
+[2.305836] (-) TimerEvent: {}
+[2.406273] (-) TimerEvent: {}
+[2.506761] (-) TimerEvent: {}
+[2.607182] (-) TimerEvent: {}
+[2.707636] (-) TimerEvent: {}
+[2.808017] (-) TimerEvent: {}
+[2.908407] (-) TimerEvent: {}
+[3.008808] (-) TimerEvent: {}
+[3.109194] (-) TimerEvent: {}
+[3.209583] (-) TimerEvent: {}
+[3.309968] (-) TimerEvent: {}
+[3.410368] (-) TimerEvent: {}
+[3.510802] (-) TimerEvent: {}
+[3.611198] (-) TimerEvent: {}
+[3.711565] (-) TimerEvent: {}
+[3.811931] (-) TimerEvent: {}
+[3.912308] (-) TimerEvent: {}
+[4.012799] (-) TimerEvent: {}
+[4.113164] (-) TimerEvent: {}
+[4.213673] (-) TimerEvent: {}
+[4.314118] (-) TimerEvent: {}
+[4.414527] (-) TimerEvent: {}
+[4.514974] (-) TimerEvent: {}
+[4.615436] (-) TimerEvent: {}
+[4.715893] (-) TimerEvent: {}
+[4.816395] (-) TimerEvent: {}
+[4.916787] (-) TimerEvent: {}
+[5.017183] (-) TimerEvent: {}
+[5.117576] (-) TimerEvent: {}
+[5.217949] (-) TimerEvent: {}
+[5.318299] (-) TimerEvent: {}
+[5.418722] (-) TimerEvent: {}
+[5.519341] (-) TimerEvent: {}
+[5.619802] (-) TimerEvent: {}
+[5.720193] (-) TimerEvent: {}
+[5.820598] (-) TimerEvent: {}
+[5.921036] (-) TimerEvent: {}
+[6.021473] (-) TimerEvent: {}
+[6.121864] (-) TimerEvent: {}
+[6.222249] (-) TimerEvent: {}
+[6.322643] (-) TimerEvent: {}
+[6.423051] (-) TimerEvent: {}
+[6.523536] (-) TimerEvent: {}
+[6.624021] (-) TimerEvent: {}
+[6.724475] (-) TimerEvent: {}
+[6.824826] (-) TimerEvent: {}
+[6.925170] (-) TimerEvent: {}
+[7.025536] (-) TimerEvent: {}
+[7.125916] (-) TimerEvent: {}
+[7.226304] (-) TimerEvent: {}
+[7.326684] (-) TimerEvent: {}
+[7.427051] (-) TimerEvent: {}
+[7.527498] (-) TimerEvent: {}
+[7.627849] (-) TimerEvent: {}
+[7.728209] (-) TimerEvent: {}
+[7.828676] (-) TimerEvent: {}
+[7.929056] (-) TimerEvent: {}
+[8.029385] (-) TimerEvent: {}
+[8.129807] (-) TimerEvent: {}
+[8.230212] (-) TimerEvent: {}
+[8.330640] (-) TimerEvent: {}
+[8.430993] (-) TimerEvent: {}
+[8.527232] (test-talker) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[8.531090] (-) TimerEvent: {}
+[8.631432] (-) TimerEvent: {}
+[8.731860] (-) TimerEvent: {}
+[8.832251] (-) TimerEvent: {}
+[8.882192] (test-talker) StdoutLine: {'line': b'[100%] Built target talker\n'}
+[8.902431] (test-talker) CommandEnded: {'returncode': 0}
+[8.932379] (-) TimerEvent: {}
+[8.948494] (test-talker) JobProgress: {'identifier': 'test-talker', 'progress': 'install'}
+[8.965896] (test-talker) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros-humble-dev-container/src/build/test-talker'], 'cwd': '/ros-humble-dev-container/src/build/test-talker', 'env': OrderedDict([('HOSTNAME', 'craftman'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/helpers/browser.sh'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/ros-humble-dev-container'), ('TERM_PROGRAM_VERSION', '1.94.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-4537d6c6-74c7-4d6c-abac-e7f5e4402e5a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-3218cb39-8f7e-49a0-8c4b-903b0ad8453c.sock'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/384ff7382de624fb94dbaf6da11977bba1ecd427/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock","/tmp/.X11-unix/X3","/home/ubuntu/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':3'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-a40e3884c9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-e95e86e3-ea4f-4ecb-8cfd-4092dd092b39.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X3'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/ros-humble-dev-container/src/build/test-talker'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.978463] (test-talker) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.978794] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/lib/test-talker/talker\n'}
+[8.980828] (test-talker) StdoutLine: {'line': b'-- Set runtime path of "/ros-humble-dev-container/src/install/test-talker/lib/test-talker/talker" to ""\n'}
+[8.981153] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/ament_index/resource_index/package_run_dependencies/test-talker\n'}
+[8.981420] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/ament_index/resource_index/parent_prefix_path/test-talker\n'}
+[8.981844] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/environment/ament_prefix_path.sh\n'}
+[8.982131] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/environment/ament_prefix_path.dsv\n'}
+[8.982412] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/environment/path.sh\n'}
+[8.982686] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/environment/path.dsv\n'}
+[8.983265] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/local_setup.bash\n'}
+[8.983568] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/local_setup.sh\n'}
+[8.983932] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/local_setup.zsh\n'}
+[8.984259] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/local_setup.dsv\n'}
+[8.984584] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/package.dsv\n'}
+[8.985003] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/ament_index/resource_index/packages/test-talker\n'}
+[8.985296] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/cmake/test-talkerConfig.cmake\n'}
+[8.985526] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/cmake/test-talkerConfig-version.cmake\n'}
+[8.985763] (test-talker) StdoutLine: {'line': b'-- Installing: /ros-humble-dev-container/src/install/test-talker/share/test-talker/package.xml\n'}
+[8.989038] (test-talker) CommandEnded: {'returncode': 0}
+[9.032515] (-) TimerEvent: {}
+[9.077649] (test-talker) JobEnded: {'identifier': 'test-talker', 'rc': 0}
+[9.078820] (-) EventReactorShutdown: {}

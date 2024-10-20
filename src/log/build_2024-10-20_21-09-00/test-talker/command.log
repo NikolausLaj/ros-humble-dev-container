@@ -1,0 +1,6 @@
+Invoking command in '/ros-humble-dev-container/src/build/test-talker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros-humble-dev-container/src/test-talker -DCMAKE_INSTALL_PREFIX=/ros-humble-dev-container/src/install/test-talker
+Invoked command in '/ros-humble-dev-container/src/build/test-talker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros-humble-dev-container/src/test-talker -DCMAKE_INSTALL_PREFIX=/ros-humble-dev-container/src/install/test-talker
+Invoking command in '/ros-humble-dev-container/src/build/test-talker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros-humble-dev-container/src/build/test-talker -- -j8 -l8
+Invoked command in '/ros-humble-dev-container/src/build/test-talker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros-humble-dev-container/src/build/test-talker -- -j8 -l8
+Invoking command in '/ros-humble-dev-container/src/build/test-talker': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros-humble-dev-container/src/build/test-talker
+Invoked command in '/ros-humble-dev-container/src/build/test-talker' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros-humble-dev-container/src/build/test-talker

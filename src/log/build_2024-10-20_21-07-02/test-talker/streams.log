@@ -1,0 +1,60 @@
+[0.015s] Invoking command in '/ros-humble-dev-container/src/build/test-talker': /usr/bin/cmake /ros-humble-dev-container/src/test-talker -DCMAKE_INSTALL_PREFIX=/ros-humble-dev-container/src/install/test-talker
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.220s] -- The CXX compiler identification is GNU 11.4.0
+[0.232s] -- Detecting C compiler ABI info
+[0.365s] -- Detecting C compiler ABI info - done
+[0.383s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.383s] -- Detecting C compile features
+[0.384s] -- Detecting C compile features - done
+[0.390s] -- Detecting CXX compiler ABI info
+[0.662s] -- Detecting CXX compiler ABI info - done
+[0.693s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.694s] -- Detecting CXX compile features
+[0.696s] -- Detecting CXX compile features - done
+[0.705s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.234s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.535s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[1.645s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.659s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.677s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.699s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.812s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.818s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.971s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.024s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.112s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.130s] -- Looking for pthread.h
+[2.275s] -- Looking for pthread.h - found
+[2.276s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.517s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.521s] -- Found Threads: TRUE  
+[2.738s] Error parsing '/ros-humble-dev-container/src/test-talker/package.xml':
+[2.738s] Traceback (most recent call last):
+[2.738s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.738s]     main()
+[2.738s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.739s]     raise e
+[2.739s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.739s]     package = parse_package_string(
+[2.739s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[2.739s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[2.739s] catkin_pkg.package.InvalidPackage: Error(s) in package '/ros-humble-dev-container/src/test-talker/package.xml':
+[2.739s] Error(s):
+[2.740s] - The generic dependency on 'rclcpp' is redundant with: exec_depend
+[2.740s] - The generic dependency on 'std_msgs' is redundant with: exec_depend
+[2.751s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.751s]   execute_process(/usr/bin/python3
+[2.751s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.751s]   /ros-humble-dev-container/src/test-talker/package.xml
+[2.752s]   /ros-humble-dev-container/src/build/test-talker/ament_cmake_core/package.cmake)
+[2.752s]   returned error code 1
+[2.752s] Call Stack (most recent call first):
+[2.752s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.752s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[2.752s]   CMakeLists.txt:21 (ament_package)
+[2.752s] 
+[2.752s] [0m
+[2.753s] -- Configuring incomplete, errors occurred!
+[2.753s] See also "/ros-humble-dev-container/src/build/test-talker/CMakeFiles/CMakeOutput.log".
+[2.766s] Invoked command in '/ros-humble-dev-container/src/build/test-talker' returned '1': /usr/bin/cmake /ros-humble-dev-container/src/test-talker -DCMAKE_INSTALL_PREFIX=/ros-humble-dev-container/src/install/test-talker
