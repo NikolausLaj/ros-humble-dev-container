@@ -1,7 +1,0 @@
-[submodule "src/test-talker"]
-	path = src/test-talker
-	url = https://github.com/NikolausLaj/talker-node-cpp.git
-[submodule "src/my_package"]
-	path = src/my_package
-	url = https://github.com/jvgruber/my_package.git
-
