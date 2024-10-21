@@ -1,0 +1,3 @@
+[submodule "submodules/talker-listener"]
+	path = submodules/talker-listener
+	url = https://github.com/NikolausLaj/talker-listener-test-node-cpp.git
