@@ -36,7 +36,11 @@ RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
 ################################
 ## ADD ANY CUSTOM SETUP BELOW ##
 ################################
-
 # Install colcon and necessary extensions
 RUN sudo apt-get install -y \
     python3-colcon-common-extensions
+
+RUN sudo apt-get install -y \
+    python3-pip \
+    python3-setuptools \
+    python3-rosdep

@@ -1,3 +1,6 @@
 [submodule "src/test-talker-listener"]
 	path = src/test-talker-listener
 	url = https://github.com/NikolausLaj/talker-listener-test-node-cpp.git
+[submodule "src/face_tracker_3000"]
+	path = src/face_tracker_3000
+	url = https://github.com/NikolausLaj/face_tracker_3000.git
