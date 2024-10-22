@@ -1,5 +1,5 @@
 {
-  "name": "humble desktop-full",
+  "name": "ros-humble-dev-container",
   "dockerFile": "Dockerfile",
   "runArgs": [
     "--privileged",
