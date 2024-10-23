@@ -32,15 +32,13 @@ RUN sudo apt install -y wget
 # Rosdep update
 RUN rosdep update
 
-################################
-## ADD ANY CUSTOM SETUP BELOW ##
-################################
-# Install colcon and necessary extensions
 RUN sudo apt-get install -y \
     python3-colcon-common-extensions \
     python3-pip \
     python3-setuptools \
     python3-rosdep
+
+RUN pip install opencv-python opencv-python-headless
 
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
