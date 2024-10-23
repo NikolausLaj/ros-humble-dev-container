@@ -4,9 +4,9 @@ build/
 bin/
 lib/
 msg_gen/
-src/build/
-src/install/
-src/log/
+build/
+install/
+log/
 srv_gen/
 msg/*Action.msg
 msg/*ActionFeedback.msg
