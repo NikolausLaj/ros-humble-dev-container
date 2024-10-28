@@ -4,3 +4,6 @@
 [submodule "src/face_tracker_3000"]
 	path = src/face_tracker_3000
 	url = https://github.com/NikolausLaj/face_tracker_3000.git
+[submodule "src/camera_calibation"]
+	path = src/camera_calibation
+	url = https://github.com/NikolausLaj/ros-camera-calibation.git
