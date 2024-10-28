@@ -1,6 +1,8 @@
 # Face Tracker 3000 Dev Container
 ## Description
-The **Face Tracker 3000** is a personal project created to solidify my skills in various areas and to gain hands-on experience with new concepts. The Face Tracker 3000 is a compact robot featuring a USB camera, a Raspberry Pi 5 as its primary computer, and an Arduino Nano to control movement. Its goal is to identify and track a person’s face, estimate the distance and angle to the target, and then fire a Nerf projectile with precision. <img src="face_tracker_3000_logo.webp" alt="Logo" align="right" width="300" style="margin-right: 15px;"/>
+<img src="face_tracker_3000_logo.webp" alt="Logo" align="right" width="200" style="margin-left: px15;"/>
+
+The **Face Tracker 3000** is a personal project created to solidify my skills in various areas and to gain hands-on experience with new concepts. The Face Tracker 3000 is a compact robot featuring a USB camera, a Raspberry Pi 5 as its primary computer, and an Arduino Nano to control movement. Its goal is to identify and track a person’s face, estimate the distance and angle to the target, and then fire a Nerf projectile with precision.
 ### Technologies and Concepts
 This project brings together various technologies and concepts, including:
 
