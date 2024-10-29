@@ -37,15 +37,12 @@ RUN sudo apt-get install -y \
     python3-colcon-common-extensions \
     python3-pip \
     python3-setuptools \
-    python3-rosdep
+    python3-rosdep \
+    python3-serial
 
 # OpenCV
 RUN pip install opencv-python opencv-python-headless
 
-# rosserial
-#RUN sudo apt-get install -y \
-#    ros-humble-rosserial-arduino \
-#    ros-humble-rosserial
 
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
