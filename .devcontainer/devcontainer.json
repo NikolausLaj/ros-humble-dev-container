@@ -15,6 +15,7 @@
         "ms-python.python",  // Python extension for Python development
         "twxs.cmake",        // CMake extension for working with CMake files
         "ms-vscode.cpptools" // C++ extension for C++ development
+        "gruntfuggly.todo-tree"
       ]
     }
   },
