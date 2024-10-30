@@ -43,6 +43,7 @@ RUN sudo apt-get install -y \
 # OpenCV
 RUN pip install opencv-python opencv-python-headless
 
+RUN sudo usermod -aG dialout $USERNAME
 
 # Source the ROS setup file
 RUN echo "source /opt/ros/${ROS_DISTRO}/setup.bash" >> ~/.bashrc
