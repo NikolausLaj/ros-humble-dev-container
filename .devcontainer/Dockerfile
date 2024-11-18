@@ -27,6 +27,7 @@ RUN sudo apt update && sudo apt upgrade -y
 # Install Git
 RUN sudo apt install -y git
 
+# Install wget
 RUN sudo apt install -y wget
 
 # Rosdep update
@@ -41,8 +42,15 @@ RUN sudo apt-get install -y \
     python3-serial
 
 # OpenCV
-RUN pip install opencv-python opencv-python-headless
+RUN pip install \
+    opencv-python \
+    opencv-python-headless
 
+# Additional ROS2 pakages
+RUN sudo apt-get install \
+    ros-humble-v4l2-camera
+
+# For Serial Connection
 RUN sudo usermod -aG dialout $USERNAME
 
 # Source the ROS setup file
